@@ -52,7 +52,7 @@ If you already have nano installed, you can manually add the audio fix to GRUB.
 
 sudo nano /etc/default/grub
 
-4. Find the line
+3. Find the line
 
 GRUB_CMDLINE_LINUX_DEFAULT=
 
@@ -62,17 +62,17 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_intel_dspcfg.dsp_driver=3"
 
 💡 Important: Do not change the _DEFAULT part — that’s the correct GRUB variable name.
 
-5. Save and exit nano
+4. Save and exit nano
 
 Press Ctrl + O → then Enter to save
 
 Press Ctrl + X to exit
 
-6. Update GRUB
+5. Update GRUB
 
 sudo update-grub
 
-7. Reboot your Chromebook
+6. Reboot your Chromebook
 
 sudo reboot
 
