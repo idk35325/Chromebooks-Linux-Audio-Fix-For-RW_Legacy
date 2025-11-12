@@ -45,15 +45,13 @@ sudo nano /etc/default/grub
 
 2. Find the line
 
-GRUB_CMDLINE_yourusername_DEFAULT=
+GRUB_CMDLINE_LINUX_DEFAULT=
 
 change TO
 
-GRUB_CMDLINE_yourusername_DEFAULT="quiet splash snd_intel_dspcfg.dsp_driver=3"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_intel_dspcfg.dsp_driver=3"
 
 💡 Important: Do not change the _DEFAULT part — that’s the correct GRUB variable name.
-
-only your username
 
 4. Save and exit nano
 
