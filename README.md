@@ -41,9 +41,10 @@ If you test and confirm it works on other distros Or More Chromebooks Models, pl
 If you already have nano installed, you can manually add the audio fix to GRUB.
 
 1. Open the GRUB configuration file
+
 sudo nano /etc/default/grub
 
-2. Find the line
+3. Find the line
 
 GRUB_CMDLINE_LINUX_DEFAULT=
 
@@ -60,9 +61,11 @@ Press Ctrl + O → then Enter to save
 Press Ctrl + X to exit
 
 5. Update GRUB
+
 sudo update-grub
 
-6. Reboot your Chromebook
+7. Reboot your Chromebook
+
 sudo reboot
 
 
