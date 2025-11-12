@@ -30,21 +30,29 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟡 Debian  
 - 🟡 Fedora  
 - 🟡 Elementary OS  
-- 🟡 GalliumOS (with custom kernel)  
+- 🟡 GalliumOS (with custom kernel)
+- 🟡 Arch Linux
 
 If you test and confirm it works on other distros Or More Chromebooks Models, please open an **issue** or **pull request** so we can update the list!
 
----
-
 ⚙️ Installation (Manual Method)
+
+1. Install neno 
+
+sudo apt install nano
+
+sudo dnf install nano
+
+sudo pacman -S nano
+
 
 If you already have nano installed, you can manually add the audio fix to GRUB.
 
-1. Open the GRUB configuration file
+2. Open the GRUB configuration file
 
 sudo nano /etc/default/grub
 
-3. Find the line
+4. Find the line
 
 GRUB_CMDLINE_LINUX_DEFAULT=
 
@@ -54,13 +62,13 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash snd_intel_dspcfg.dsp_driver=3"
 
 💡 Important: Do not change the _DEFAULT part — that’s the correct GRUB variable name.
 
-4. Save and exit nano
+5. Save and exit nano
 
 Press Ctrl + O → then Enter to save
 
 Press Ctrl + X to exit
 
-5. Update GRUB
+6. Update GRUB
 
 sudo update-grub
 
