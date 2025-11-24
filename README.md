@@ -33,7 +33,15 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟡 GalliumOS (with custom kernel)
 - 🟡 Arch Linux
 
-If you test and confirm it works on other distros Or More Chromebooks Models, please open an **issue** or **pull request** so we can update the list!
+**Confirmed working on platform processor:**
+
+- 🟢 GEMINI LAKE
+
+** Confirmed working processors:**
+
+INTEL CELERON N4120
+
+If you test and confirm it works on other distros " More Chromebooks Models " platform processor " and processors   , please open an **issue** or **pull request** so we can update the list!
 
 ⚙️ Installation (Manual Method)
 
@@ -81,6 +89,6 @@ sudo reboot
 
 ## ⚡ Features / Why It Works
 
-- Forces the Intel audio driver to use the legacy HDA interface.
+- Forces the Intel audio driver to use the legacy HDA audio interface.
 - Works with rw_legacy firmware (no full ROM update required).
 - Tested on Pop!_OS Ubuntu Lubuntu and Kubuntu.
