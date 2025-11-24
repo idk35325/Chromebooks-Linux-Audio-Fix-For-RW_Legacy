@@ -5,7 +5,7 @@ Tested on Pop!_OS Ubuntu Lubuntu And Kubuntu. It may work on other Linux distrib
 
 # 🎧 chromebooks Audio Fix (rw_legacy)
 
-This project provides a tested **audio fix** ON  ONLY **Blooguard octopus Board** model when running **Linux** with **MrChromebox rw_legacy firmware**.
+This project provides a tested **audio fix** when running **Linux** with **MrChromebox rw_legacy firmware**.
 
 If you’re using a **full ROM** flash, you NOT need this — this fix is designed for **rw_legacy users** who want to keep ChromeOS boot options but still have working audio in Linux.
 
