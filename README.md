@@ -21,10 +21,8 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 
 **Tested Linux distributions:**
 - 🟢 Pop!_OS 22.04 / 24.04 LTS  
-- 🟢 Ubuntu 22.04 / 24.04 LTS 
-- 🟢 Lubuntu 22.04 / 24.04 LTS
-- 🟢 Kubuntu 22.04 / 24.04 LTS
-  
+- 🟢 Ubuntu 22.04 / 24.04 LTS /Lubuntu 22.04 / 24.04 LTS/Kubuntu 22.04 / 24.04 LTS
+
 **Confirmed working on platform processor:**
 
 - 🟢 GEMINI LAKE
@@ -34,13 +32,13 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟢 INTEL CELERON N4120
 
 **May also work on:**
-- 🟡 Linux Mint  
-- 🟡 Debian  
-- 🟡 Fedora  
+- 🟡 Linux Mint  22.3
+- 🟡 Debian 
+- 🟡 Fedora 
 - 🟡 Elementary OS  
 - 🟡 GalliumOS (with custom kernel)
-- 🟡 Arch Linux
-
+- 🟡 Arch Linux / CachyOS Linux
+ 
 
 If you test and confirm it works on other distros " More Chromebooks Models " platform processor " and processors   , please open an **issue** or **pull request** so we can update the list!
 
