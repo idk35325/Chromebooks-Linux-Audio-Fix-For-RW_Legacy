@@ -91,4 +91,5 @@ sudo reboot
 - Forces the Intel audio driver to use the legacy HDA audio interface.
 - Works with rw_legacy firmware (no full ROM update required).
 - Tested on Pop!_OS Ubuntu Lubuntu and Kubuntu LTS
-  
+
+
