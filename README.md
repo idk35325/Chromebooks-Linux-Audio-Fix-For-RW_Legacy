@@ -37,7 +37,7 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟡 Fedora 
 - 🟡 Elementary OS  
 - 🟡 GalliumOS (with custom kernel)
-- 🟡 Arch Linux / CachyOS Linux
+- 🟡 Arch Linux btw / CachyOS Linux
  
 
 If you test and confirm it works on other distros " More Chromebooks Models " platform processor " and processors   , please open an **issue** or **pull request** so we can update the list!
