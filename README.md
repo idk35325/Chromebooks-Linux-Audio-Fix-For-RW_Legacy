@@ -20,10 +20,10 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟢 HP Chromebook x360 14a-ca0  
 
 **Tested Linux distributions:**
-- 🟢 Pop!_OS 22.04 / 24.04  
-- 🟢 Ubuntu 22.04 / 24.04  
-- 🟢 Lubuntu 22.04 / 24.04 
-- 🟢 Kubuntu 22.04 / 24.04
+- 🟢 Pop!_OS 22.04 / 24.04 LTS  
+- 🟢 Ubuntu 22.04 / 24.04 LTS 
+- 🟢 Lubuntu 22.04 / 24.04 LTS
+- 🟢 Kubuntu 22.04 / 24.04 LTS
   
 **Confirmed working on platform processor:**
 
@@ -46,7 +46,7 @@ If you test and confirm it works on other distros " More Chromebooks Models " pl
 
 ⚙️ Installation (Manual Method)
 
-1. Install neno 
+1. Install nano 
 
 sudo apt install nano
 
@@ -92,27 +92,5 @@ sudo reboot
 
 - Forces the Intel audio driver to use the legacy HDA audio interface.
 - Works with rw_legacy firmware (no full ROM update required).
-- Tested on Pop!_OS Ubuntu Lubuntu and Kubuntu.
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-MIT License
-
-Copyright (c) 2025 idk35325
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- Tested on Pop!_OS Ubuntu Lubuntu and Kubuntu LTS
+  
