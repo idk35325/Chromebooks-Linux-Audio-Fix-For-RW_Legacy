@@ -20,8 +20,8 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟢 HP Chromebook x360 14a-ca0  
 
 **Tested Linux distributions:**
-- 🟢 Pop!_OS 22.04 / 24.04 LTS  
-- 🟢 Ubuntu 22.04 / 24.04 LTS /Lubuntu 22.04 / 24.04 LTS/Kubuntu 22.04 / 24.04 LTS
+- 🟢 Pop!_OS 24.04 LTS
+- 🟢 Ubuntu 24.04 Lubuntu 24.04 Kubuntu 24.04 
 
 **Confirmed working on platform processor:**
 
@@ -33,9 +33,9 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 
 **May also work on:**
 - 🟡 Linux Mint  22.3
-- 🟡 Debian 
-- 🟡 Fedora 
-- 🟡 Elementary OS  
+- 🟡 Debian 13
+- 🟡 Fedora 43 : 44
+- 🟡 Elementary OS 8
 - 🟡 GalliumOS
 - 🟡 Arch Linux
  
