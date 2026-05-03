@@ -32,6 +32,7 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟢 INTEL CELERON N4120
 
 **May also work on:**
+
 - 🟡 Linux Mint  22.3
 - 🟡 Debian 13
 - 🟡 Fedora 43 : 44
@@ -40,7 +41,7 @@ This fix restores audio output by restoring known-good **GRUB + ALSA** configura
 - 🟡 Arch Linux
  
 
-If you test and confirm it works on other distros " More Chromebooks Models " platform processor " and processors   , please open an **issue** or **pull request** so we can update the list!
+If you test and confirm it works on other distros " More Chromebooks Models " platform processor " and processors   , please open an **issue** or **pull request** so i can update the list!
 
 ⚙️ Installation (Manual Method)
 
